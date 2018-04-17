@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017 guodongAndroid
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ Last modified 2017-05-04 15:08:51
+  ~
+  ~ GitHub:   https://github.com/guodongAndroid
+  ~ Website:  http://www.sunxiaoduo.com
+  ~ Email:    sun33919135@gmail.com
+  ~ QQ:       33919135
+  -->
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <ImageView
+            android:id="@+id/picture_item_user_avatar"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img_tips_error_load_error"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/picture_item_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:textColor="@color/font_normal"
+            android:textSize="14sp"
+            android:text="不卑不亢"
+            android:maxLines="1"/>
+    </LinearLayout>
+
+    <com.guodong.sun.guodong.widget.SpacingTextView
+        android:id="@+id/picture_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/font_normal_33"
+        android:text="青铜垃圾号"
+        android:lineSpacingExtra="2dp"/>
+
+    <TextView
+        android:id="@+id/picture_item_category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="8dp"
+        android:gravity="center"
+        android:paddingRight="8dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/bg_shape"
+        android:text="搞笑囧图"
+        android:textSize="14sp"/>
+</merge>
