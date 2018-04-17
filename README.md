@@ -11,8 +11,8 @@
 
 ## Effect - 效果
 <p>
-    <img src="https://github.com/guodongAndroid/guodong/blob/master/QQ%E5%9B%BE%E7%89%8720161118094617.gif" width="320"/>
-    <img src="https://github.com/guodongAndroid/guodong/blob/master/picture.gif" width="320"/>
+    <img src="http://47.97.114.8:3000/guodongAndroid/Dou/src/master/QQ%e5%9b%be%e7%89%8720161118094617.gif" width="320"/>
+    <img src="http://47.97.114.8:3000/guodongAndroid/Dou/src/master/picture.gif" width="320"/>
 </p> 
 
 ## Contact - 联系
